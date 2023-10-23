@@ -1,0 +1,17 @@
+.sadenav{
+  background-color: #3F51B5;
+  width: 200px;
+}
+
+.sadenav a{
+  color: white;
+}
+
+.sadenav i{
+  padding-right: 10px;
+}
+
+.content{
+  padding: 16px;
+  background-color: #FFF;
+}
