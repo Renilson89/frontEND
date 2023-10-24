@@ -10,7 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class ProductDeleteComponent {
 
-  product: Product;
+    product: Product;
 
   constructor(private productService: ProductService , private router: Router, private route: ActivatedRoute){}
 
@@ -23,7 +23,7 @@ export class ProductDeleteComponent {
   deleteProduct(): void {
     this.productService.delete(this.product.id).subscribe(() =>{
       this.productService.showMessage('Produto Excluido com Sucesso!')
-      this.router.navigate(['/products'])
+      this.router.navigate(['/products']);
     })
 
   }
